@@ -23,12 +23,16 @@ def main():
     lado_a = float(input("Ingrese Lado 1:"))
     lado_b = float(input("Ingrese Lado 2:"))
     lado_c = float(input("Ingrese Lado 3:"))
-    	
+    print('Área del triangulo: ')	
     if es_triangulo(lado_a, lado_b, lado_c):
         area = calcular_area(lado_a, lado_b, lado_c)
         imprimir_resultados(lado_a, lado_b, lado_c, area)
     else:
         print("Los lados ingresados no forman un triángulo válido.")
 
+
+lado_a = 5
+lado_b = 4
+lado_c = 4.5
 #Programa Principal
 main() #Invoca la función main
